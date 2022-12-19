@@ -13,7 +13,7 @@ env:
   ECS_SERVICE: go-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: bigdata-dev                  # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION_NAME: "service"         # set this to your amazon ecs task defination name
-  CONTAINER_NAME: bigdata-dev-goservice           # set this to the name of the container in the
+  CONTAINER_NAME: goservice           # set this to the name of the container in the
                                               
 
 jobs:
